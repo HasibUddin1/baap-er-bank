@@ -15,9 +15,9 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     // DANGER: never use this method to any form
     // verify: email and password
     if(userEmail === 'shontan@gmail.com' && userPassword === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html';
     }
     else{
-        console.log('invalid user');
+        alert('invalid user');
     }
 })
